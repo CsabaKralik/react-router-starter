@@ -19,7 +19,7 @@ const NoButton = styled(Button)`
 const YesNoBtn = (props) => {
   return (
     <div>
-      Do you need that kitten???
+      Do you need this kitten???
       <div>
         <YesButton onClick={props.onYes}>Yes</YesButton>
         <NoButton onClick={props.onNo}>No</NoButton>

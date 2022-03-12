@@ -3,17 +3,14 @@ import styled from "styled-components";
 import YesNoBtn from "./YesNoBtn";
 
 const CatBox = styled.div`
-  padding: 2rem;
-  border: 2px solid black;
+  padding: 1rem;
   border-radius: 3px;
-  max-width: 50%;
-  width: 50%;
-  height: 80%;
-  max-height: 80%;
+  text-align: center;
 `;
 
 const Img = styled.img`
   width: 100%;
+  object-fit: cover;
 `;
 
 const CatImage = (props) => {
