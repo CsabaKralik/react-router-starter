@@ -26,3 +26,8 @@ nav a {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+.clear-btn {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
